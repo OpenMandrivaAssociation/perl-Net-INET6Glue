@@ -16,6 +16,8 @@ Source0:    https://cpan.metacpan.org/modules/by-module/Net/%{upstream_name}-%{u
 BuildRequires: perl(ExtUtils::MakeMaker)
 BuildRequires: perl(IO::Socket::IP) >= 0.250.0
 BuildRequires: perl(Net::FTP) >= 2.750.0
+BuildRequires: perl-devel
+BuildRequires: perl
 BuildArch:  noarch
 
 %description
