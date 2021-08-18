@@ -48,6 +48,6 @@ env PERL_MM_USE_DEFAULT=1 %{__perl} Makefile.PL INSTALLDIRS=vendor
 %make_install
 
 %files
-%doc COPYRIGHT Changes META.json META.yml MYMETA.yml README
+%doc COPYRIGHT Changes META.json META.yml README
 %{_mandir}/man3/*
 %perl_vendorlib/*
